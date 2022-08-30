@@ -1,4 +1,4 @@
-# GlizzyPhish.github.io
+# MicMetz.github.io
 
 By: Michael Metz
 
