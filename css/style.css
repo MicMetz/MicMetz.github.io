@@ -1,0 +1,141 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box; }
+
+html {
+	font-family:                 sans-serif;
+	line-height:                 1.15;
+	-webkit-text-size-adjust:    100%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	overflow: hidden;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+	display: block;
+}
+
+
+
+body {
+	display:          block;
+	font-family:      "Lato", sans-serif;
+	font-size:        1rem;
+	font-weight:      400;
+	line-height:      1.5;
+	color:            #ffffff;
+	text-align:       left;
+	background-color: black;
+}
+
+.page-container {
+	width:            100%;
+	background-color: transparent;
+	margin:           0;
+	padding:          0;
+	font-family:      Arial, Helvetica, sans-serif;
+}
+
+.splash_title {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.splash_subheading {
+	font-family: "Rubik", sans-serif;
+}
+
+
+.cu-icon {
+	background-image: url("../img/cu-icon.png");
+	height:           20px;
+	width:            20px;
+	display:          inline-block;
+	position:         relative;
+
+}
+
+.splash_background {
+	background-image:    url("../img/background.jpg");
+	background-size:     cover;
+	background-position: center;
+	height:              100vh;
+}
+
+
+.splash_overlay {
+	height:           inherit;
+	background-color: rgba(43, 43, 43, 0.8); /* Tint */
+	display:          flex;
+	flex-direction:   column;
+	align-items:      center;
+	justify-content:  center;
+	position:         relative;
+	color:            white;
+}
+
+
+.splash_content {
+	position:   absolute;
+	text-align: center;
+}
+
+
+.splash_Links {
+	margin-top:     130px;
+	display:        flex;
+	flex-direction: column;
+	align-items:    center;
+	color: white;
+}
+
+
+.splash_Links span {
+	margin:      20px;
+	font-weight: 150;
+	font-size:   16px;
+	position:    relative;
+}
+
+
+.splash_Links span::before {
+	content:          " ";
+	height:           1px;
+	width:            40px;
+	background-color: white;
+	position:         absolute;
+	left:             -40px;
+	bottom:           2px;
+}
+
+
+.splash_Links span::after {
+	content:          " ";
+	height:           1px;
+	width:            40px;
+	background-color: white;
+	position:         absolute;
+	right:            -40px;
+	bottom:           2px;
+}
+
+
+.splash_Links a {
+	margin: 0;
+	display:            block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	box-sizing:         border-box;
+}
+
+
+.splash_subheading {
+	font-size:  16px;
+	text-align: center;
+}
+
+footer {
+	position: absolute;
+	bottom : 0;
+	text-align: center;
+}
