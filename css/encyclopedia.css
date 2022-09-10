@@ -91,9 +91,18 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     font-size: 1.2rem;
     font-weight: 400;
     color: black;
-
 }
 
+#header-img {
+    display: block;
+    width: 100%;
+    max-height: 800px;
+    margin: 0 auto;
+    padding: 0;
+    top: 0 !important;
+    position: relative;
+    z-index: -1;
+}
 
 body {
     display: block;
