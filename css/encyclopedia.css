@@ -1,0 +1,81 @@
+a, abbr, address, blockquote, body, caption, cite, code, del, dfn, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, label, legend, li, object, ol, p, pre, q, small, span, strong, sub, sup, table, tbody, tfoot, thead, ul {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+#table-contents {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+    float:right;
+}
+
+.sub-content {
+    display: block;
+    margin: 0 auto;
+}
+
+.sub-content::before {
+    content: '';
+    white-space: pre;
+}
+
+.media {
+    display: inline-block;
+    align-content: center;
+    max-width: 1200px;
+    padding: 0 20px 20px;
+    min-width: 300px;
+    float:right !important;
+    position: relative;
+}
+
+#header {
+    display: block;
+    padding-bottom: 15px;
+    font-family: "Lato", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    text-align: left;
+}
+
+body {
+    display: block;
+    font-family: "Lato", sans-serif;
+    margin: 120px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    text-align: left;
+    background-color: white;
+}
+
+.page-content {
+    width: 100%;
+    background-color: transparent;
+
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
