@@ -1,0 +1,27 @@
+
+
+archive-form {
+    opacity: 1;
+    transition: opacity 300ms;
+}
+
+archive-form[hidden] {
+    opacity: 0;
+}
+
+archive-grid:unresolved {
+    opacity: 0;
+}
+
+archive-grid {
+    opacity: 1;
+    transition: opacity 300ms;
+}
+
+archive-grid[hidden] {
+    opacity: 0;
+}
+
+archive-grid:unresolved {
+    opacity: 0;
+}
