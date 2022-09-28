@@ -1,0 +1,73 @@
+$break-point-tablet-small = 'screen and (min-width: 576px)'
+$break-point-table-default = 'screen and (min-width: 768px)'
+$break-point-default = 'screen and (min-width: 1024px)'
+$break-point-large = 'screen and (min-width: 1280px)'
+$break-point-xlarge = 'screen and (min-width: 1440px)'
+
+$black = #000
+$white = #fff
+$gray = #f5f5f5
+
+$primary-main = #01698F
+$primary-alt = #2EADDB
+$primary-medium = #DB872D
+$primary-valley = #FFAA4F
+$primary-peak = #8F5110
+$secondary-main = #6c757d
+$secondary-alt = #6c757d
+
+html
+  box-sizing: border-box;
+  *, *:before, *:after
+    box-sizing: inherit;
+  a
+    text-decoration: none;
+    color: inherit;
+
+html,
+body
+  cursor: default
+code
+  cursor: text
+
+body-font()
+  //font-family: 'Roboto Mono', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+
+header-font()
+  font-family: 'Roboto Bold', monospace;
+
+italic-font()
+  font-style : italic;
+
+bold-font()
+    font-weight : bold;
+
+uppercase-font()
+  text-transform: uppercase;
+
+neutral-voice()
+  font-size: 1.2rem
+  line-height: 1.5rem
+  strong
+    font-weight: 700
+    em
+      font-style: italic
+
+small-voice()
+  font-size: 1rem
+  line-height: 1.1rem
+
+shouting-voice()
+  font-size: 2rem
+  line-height: 2.5rem
+  font-weight: 650
+
+default-transition()
+  transition: all 0.4s ease-in-out
+  &:hover
+    transition: 0s
+  &:focus
+    transition: all 0.3s ease-in-out
+
+
