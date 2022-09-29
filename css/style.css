@@ -213,6 +213,7 @@ body {
 .splash_Links li {
     display: inline-block;
     font-family: "cubanoregular", sans-serif;
+    list-style-type: none;
 }
 
 .splash_Links a {
