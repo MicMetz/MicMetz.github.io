@@ -156,23 +156,16 @@ body {
 
 
 .splash_content {
-    flex: 1;
-    text-align: center;
-    display: block;
-    position: relative;
-    color: white;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-
-    top: 50%;
-
-
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-
+    align-items: center;
+    height: inherit;
+    width: inherit;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    text-align: center;
 }
 
 .splash_content h1 {
@@ -241,9 +234,6 @@ body {
     text-decoration: underline;
 }
 
-.splash_Links a:visited {
-
-}
 
 
 .splash_subheading {
