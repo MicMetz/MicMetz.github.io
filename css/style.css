@@ -209,28 +209,39 @@ body {
 
 
 .splash_Links {
-    margin-top: 1.000em;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    color: yellowgreen;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
-.splash_Links span {
+.splash_Links li {
+    display: inline-block;
+    font-family: "cubanoregular", sans-serif;
+}
+
+.splash_Links a {
+    color: yellowgreen;
     margin: 0.500em;
     font-weight: 150;
     font-size: 1.000em;
-    position: relative;
+    text-decoration: none;
 }
 
+.splash_Links a:hover {
+    color: yellow;
+    text-decoration: underline;
+    transition: 0.5s;
+}
 
-.splash_Links a {
-    margin: 0;
-    display: block;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+.splash_Links a:active {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.splash_Links a:visited {
 
 }
 
